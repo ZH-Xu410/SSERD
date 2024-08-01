@@ -15,7 +15,7 @@ Python3.8, install the requirements via pip.
 
 ## 2. Download Pretrained Models
 
-See the Release Page.
+See the [Release](https://github.com/ZH-Xu410/SSERD/releases/tag/v1.0.0) Page.
 
 ## 3. Prepare Dataset
 
