@@ -1,6 +1,11 @@
 # SSERD - Official Implementation
-## Self-Supervised Emotion Representation Disentanglement for Speech-Preserving Facial Expression Manipulation (ACM MM 2024)
 
+### Implementation of paper: 
+
+[Self-Supervised Emotion Representation Disentanglement for Speech-Preserving Facial Expression Manipulation](https://doi.org/10.1145/3664647.3681017)  
+Proceedings of the 32nd ACM International Conference on Multimedia (MM '24), 2024.  
+Zhihua Xu, Tianshui Chen, Zhijing Yang, Chunmei Qing, Yukai Shi, Liang Lin.
+  
 ## 1. Installation
 
 Python3.8, install the requirements via pip.
@@ -107,6 +112,17 @@ python scripts/test_intra.py --exp_dir exp/test --checkpoint_path exp/stage2/che
 python scripts/test_cross.py --exp_dir exp/test --checkpoint_path exp/stage2/checkpoints/best_model.pt --data_path data/MEAD
 ```
 For quantitative evaluation, we use the masked face images. Use "scripts/get_masked_imgs.py" to obtain masked faces.
+
+## Citation
+```
+@inproceedings{Xu2024SSERD,
+  author={Xu, Zhihua and Chen, Tianshui and Yang, Zhijing and Qing, Chunmei and Shi, Yukai and Lin, Liang},
+  title={Self-Supervised Emotion Representation Disentanglement for Speech-Preserving Facial Expression Manipulation},
+  booktitle={Proceedings of the 32nd ACM International Conference on Multimedia (MM '24)},
+  year={2024}
+}
+```
+
 ## Acknowledgements
 
-Codes are Codes are mainly developed based on [StyleGANEX](https://github.com/williamyang1991/StyleGANEX).  We thank them for their wonderful work.
+Codes are mainly developed based on [StyleGANEX](https://github.com/williamyang1991/StyleGANEX). We thank them for their wonderful work.
